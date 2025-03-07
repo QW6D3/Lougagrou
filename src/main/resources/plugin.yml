@@ -1,4 +1,11 @@
-name: lougagrou
-main: com.lougagrou.lougagrou.Plugin
-version: 1
+name: LoupGagrou
+main: com.lougagrou.lougagrou.LoupGagrou
+version: 1.0
 api-version: 1.15
+commands:
+  startgame:
+    description: Démarrer une partie
+    usage: /startgame
+  role:
+    description: Afficher ton rôle
+    usage: /role

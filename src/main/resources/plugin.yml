@@ -1,0 +1,4 @@
+name: lougagrou
+main: com.lougagrou.lougagrou.Plugin
+version: 1
+api-version: 1.15

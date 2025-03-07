@@ -1,0 +1,25 @@
+# Ignorer les fichiers de compilation Java
+*.class
+*.jar
+*.log
+
+# Ignorer les dossiers générés par Maven
+target/
+dependency-reduced-pom.xml
+
+# Ignorer les fichiers spécifiques à l'IDE
+.vscode/
+.idea/
+*.iml
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de test et caches
+test-output/
+*.swp
+*.swo
+
+# Ignorer les fichiers de configuration personnels
+*.env

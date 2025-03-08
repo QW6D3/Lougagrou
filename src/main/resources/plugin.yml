@@ -1,7 +1,7 @@
 name: LoupGagrou
-main: com.lougagrou.lougagrou.LoupGagrou
+main: com.lougagrou.LoupGagrouPlugin
 version: 1.0
-api-version: 1.15
+api-version: 1.21
 commands:
   startgame:
     description: Démarrer une partie

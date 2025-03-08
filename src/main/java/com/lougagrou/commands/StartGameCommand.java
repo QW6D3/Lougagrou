@@ -5,12 +5,12 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import com.lougagrou.LoupGarouPlugin;
+import com.lougagrou.LoupGagrouPlugin;
 
 public class StartGameCommand implements CommandExecutor {
-    private final LoupGarouPlugin plugin;
+    private final LoupGagrouPlugin plugin;
 
-    public StartGameCommand(LoupGarouPlugin plugin) {
+    public StartGameCommand(LoupGagrouPlugin plugin) {
         this.plugin = plugin;
     }
 

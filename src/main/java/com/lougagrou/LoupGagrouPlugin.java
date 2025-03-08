@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.lougagrou.commands.StartGameCommand;
 import com.lougagrou.events.GameListener;
 
-public class LoupGarouPlugin extends JavaPlugin {
+public class LoupGagrouPlugin extends JavaPlugin {
   @Override
   public void onEnable() {
     getLogger().info("LoupGarou Plugin Activé !");

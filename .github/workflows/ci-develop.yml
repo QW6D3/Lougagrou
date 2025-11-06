@@ -21,7 +21,7 @@ jobs:
           java-version: '8'
 
       - name: Verify Java version
-        run: java -version  
+        run: java -version
 
       - name: Build, Test, and Verify with Maven
         run: mvn clean verify  
@@ -30,7 +30,7 @@ jobs:
         run: mvn clean package  
 
       - name: Check if .jar exists
-        run: ls -l target/ 
+        run: ls -l target/
 
       - name: Upload .jar as artifact
         uses: actions/upload-artifact@v4

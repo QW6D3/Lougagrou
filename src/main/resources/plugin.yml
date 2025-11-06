@@ -1,4 +1,8 @@
 name: lougagrou
-main: com.lougagrou.lougagrou.Plugin
+main: com.lougagrou.Plugin
 version: 1
-api-version: 1.15
+api-version: 1.21.10
+commands:
+  lgg:
+    description: Commande principale du plugin Lougagrou.
+    usage: /lgg [help|menu]
